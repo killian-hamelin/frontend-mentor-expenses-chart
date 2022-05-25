@@ -120,8 +120,8 @@ html, body {
 	border-radius: 5px;
 	background-color: var(--brown-dark);
 	color: var(--white-card);
-	transform: translateX(-50%) translateY(0);
-	transition: transform .5s;
+	transform: translateX(-50%) translateY(-50%);
+	transition: transform .5s, opacity .5s;
 }
 
 .item-bar:hover .item-bar-tooltip {
