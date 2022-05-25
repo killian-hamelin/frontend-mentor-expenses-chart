@@ -135,3 +135,9 @@ hr {
 	background-color: var(--cream-bg);
 	margin-block: 24px;
 }
+
+@include up(600) {
+	.container {
+		max-width: 540px;
+	}
+}
