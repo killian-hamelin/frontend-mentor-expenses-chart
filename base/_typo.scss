@@ -1,0 +1,34 @@
+@import 'functions/responsive';
+
+html, body {
+	font-family: "DM Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: var(--brown-dark);
+}
+
+h1, .title-xl {
+	font-weight: 700;
+	font-size: 30px;
+	@include up(550) {
+		font-size: 48px;
+	}
+}
+
+h2, .title-l {
+	font-weight: 700;
+	font-size: 24px;
+	@include up(550) {
+		font-size: 32px;
+	}
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.caption {
+	color: var(--brown-medium);
+	font-weight: 400;
+	font-size: 15px;
+}
